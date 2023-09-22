@@ -13,17 +13,28 @@ Necessary libraries:
 * Matplotlib
 * Seaborn
 
-Business understanding:
+### Business understanding:
+
 Looking for answers for the following questions:
-    How the review scores influence the booking frequency?
-    Is it beneficial to choose or become a “superhost”?
-    Should you manage your Airbnb apartment yourself, or is it more advantageous to use the services of a professional Airbnb apartment manager?
-Data understanding:
-  The dataset contains 3818 accommodations in Seattle with a lot of details about both the host and the residence itself.
-Data preparation:
+
+ * How the review scores influence the booking frequency?
+ * Is it beneficial to choose or become a “superhost”?
+ * Should you manage your Airbnb apartment yourself, or is it more advantageous to use the services of a professional Airbnb apartment manager?
+  
+
+### Data understanding:
+The dataset contains 3818 accommodations in Seattle with a lot of details about both the host and the residence itself.
+
+### Data preparation:
+
   There a few columns with significant amount of null values, or only one unique values.
+  
   Added a few new columns like price per bed/accommodate
-Model data:
+  
+### Model data:
+
   Statistical analysis regarding the mentioned questions
-Results:
+  
+### Results:
+
   Overall, the data showed us among the many excellent Airbnb hosts in Seattle, the Superhosts stood out, providing even higher quality service, while the “professional” hosts although offering cost effective residences, manage lower amount of reservations and a bit lower quality service.
